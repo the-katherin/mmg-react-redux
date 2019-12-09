@@ -1,0 +1,13 @@
+.form {
+  display: grid;
+  justify-content: center;
+  grid-row-gap: 10px; 
+  padding: 30px;
+  background: rgba(0, 120, 201, 0.7);
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.form__submit-btn {
+  justify-self: center;
+}

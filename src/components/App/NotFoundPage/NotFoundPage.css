@@ -1,0 +1,10 @@
+.not-found-window {
+  display: grid;
+  justify-content: center;
+  grid-row-gap: 20px; 
+  padding: 30px;
+}
+
+.not-found-window__button {
+    justify-self: center;
+}

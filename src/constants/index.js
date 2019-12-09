@@ -1,0 +1,20 @@
+export const CARD_FLIP_TIME = 800;
+export const GET_USER_CHOICE = 'GET_USER_CHOICE';
+export const GET_USER_DATA = 'GET_USER_DATA';
+
+export const GENERATE_CARDS = 'GENERATE_CARDS';
+export const CARD_FLIP = 'CARD_FLIP';
+export const CARDS_UNFLIP = 'CARDS_UNFLIP';
+export const CHECK_MATCH = 'CHECK_MATCH';
+export const IS_FINISHED_CHECK = 'IS_FINISHED_CHECK';
+
+export const GET_TIME = 'GET_TIME';
+
+export const CLEAR_MEMORY = 'CLEAR_MEMORY';
+
+export const POST_SCORE = 'POST_SCORE';
+export const SCORES_LOAD_REQUEST = 'SCORES_LOAD_REQUEST';
+export const SCORES_LOAD_SUCCESS = 'SCORES_LOAD_SUCCESS'
+export const SCORES_LOAD_ERROR = 'SCORES_LOAD_ERROR';
+
+

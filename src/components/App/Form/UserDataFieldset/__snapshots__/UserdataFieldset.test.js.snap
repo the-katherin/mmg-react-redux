@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDataFieldset match snapshot 1`] = `
+<fieldset
+  className="user-data-fieldset"
+  name="userData"
+>
+  <legend>
+    Fill the form below
+  </legend>
+  <div
+    className="user-data-fieldset__inputs-grid"
+  >
+    <div>
+      <input
+        id="userName"
+        pattern="[A-Za-zА-Яа-яЁё]{1,15}"
+        placeholder="Enter your first name"
+        required={true}
+        type="text"
+      />
+    </div>
+    <div>
+      <input
+        id="userLastName"
+        pattern="[A-Za-zА-Яа-яЁё]{1,15}"
+        placeholder="Enter your last name"
+        required={true}
+        type="text"
+      />
+    </div>
+    <div>
+      <input
+        id="email"
+        placeholder="Enter your email"
+        required={true}
+        type="email"
+      />
+    </div>
+  </div>
+</fieldset>
+`;

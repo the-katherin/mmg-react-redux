@@ -1,0 +1,27 @@
+.welcome-window {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-row-gap: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background: rgba(0, 120, 201, 0.5);
+  
+}
+
+.game-rules {
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+
+
+
+
+
+
+

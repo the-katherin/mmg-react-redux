@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card match snapshot 1`] = `
+<div
+  cardnumber={1}
+  className="card undefined card--sizeundefined "
+  id={2}
+  onClick={[Function]}
+>
+  <img
+    alt="card back"
+    className="card__back card--sizeundefined"
+  />
+  <img
+    alt="card front"
+    className="card__front card--sizeundefined"
+  />
+</div>
+`;

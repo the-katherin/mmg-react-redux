@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFoundPage match snapshot 1`] = `
+<div
+  className="not-found-window"
+>
+  <h2>
+    Unfortenately, the page you're looking for isn't found :(
+  </h2>
+  <Link
+    className="not-found-window__button"
+    replace={false}
+    to="/form"
+  >
+    <button>
+      Got to form selection window
+    </button>
+  </Link>
+</div>
+`;

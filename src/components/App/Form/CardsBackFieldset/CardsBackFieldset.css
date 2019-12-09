@@ -1,0 +1,12 @@
+.cards-back-fieldset__radios {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+
+}
+
+.cards-back-fieldset__radios img{
+    border: 1px solid grey;
+    width: 120px;
+    height: 120px;
+}

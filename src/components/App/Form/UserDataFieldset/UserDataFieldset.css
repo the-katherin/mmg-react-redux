@@ -1,0 +1,16 @@
+.user-data-fieldset__inputs-grid{
+    display: grid;
+    grid-row-gap: 10px;
+    justify-items: center;
+
+}
+
+.user-data-fieldset__inputs-grid  input{
+    font-size: inherit;
+
+}
+
+
+
+
+

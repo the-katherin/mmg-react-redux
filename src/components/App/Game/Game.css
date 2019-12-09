@@ -1,0 +1,14 @@
+.game-window {
+  display: grid;
+  justify-content: center;
+  grid-row-gap: 10px; 
+  padding: 30px;
+}
+
+.game-window__buttons {
+  display: grid;
+  justify-content: left;
+  grid-auto-flow: column;
+  grid-column-gap: 10px; 
+
+}

@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form match snapshot 1`] = `
+<Connect(Form)
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Form
+    getUserChoiceFromForm={[Function]}
+    getUserDataFromForm={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <form
+      className="form"
+      name="userSelectionForm"
+      onSubmit={[Function]}
+    >
+      <UserDataFieldset>
+        <fieldset
+          className="user-data-fieldset"
+          name="userData"
+        >
+          <legend>
+            Fill the form below
+          </legend>
+          <div
+            className="user-data-fieldset__inputs-grid"
+          >
+            <div>
+              <input
+                id="userName"
+                pattern="[A-Za-zА-Яа-яЁё]{1,15}"
+                placeholder="Enter your first name"
+                required={true}
+                type="text"
+              />
+            </div>
+            <div>
+              <input
+                id="userLastName"
+                pattern="[A-Za-zА-Яа-яЁё]{1,15}"
+                placeholder="Enter your last name"
+                required={true}
+                type="text"
+              />
+            </div>
+            <div>
+              <input
+                id="email"
+                placeholder="Enter your email"
+                required={true}
+                type="email"
+              />
+            </div>
+          </div>
+        </fieldset>
+      </UserDataFieldset>
+      <LevelFieldset>
+        <fieldset
+          className="level-fieldset"
+          name="level"
+        >
+          <legend>
+            Choose level
+          </legend>
+          <div
+            className="level-fieldset__radios"
+          >
+            <div>
+              <input
+                id="easy"
+                name="level"
+                required={true}
+                type="radio"
+                value="3"
+              />
+              <label
+                htmlFor="easy"
+              >
+                Easy
+              </label>
+            </div>
+            <div>
+              <input
+                id="medium"
+                name="level"
+                type="radio"
+                value="6"
+              />
+              <label
+                htmlFor="medium"
+              >
+                Medium
+              </label>
+            </div>
+            <div>
+              <input
+                id="professional"
+                name="level"
+                type="radio"
+                value="12"
+              />
+              <label
+                htmlFor="professional"
+              >
+                Professional
+              </label>
+            </div>
+          </div>
+        </fieldset>
+      </LevelFieldset>
+      <CardsBackFieldset>
+        <fieldset
+          className="cards-back-fieldset"
+          name="cardsBack"
+        >
+          <legend>
+            Choose cards' back
+          </legend>
+          <div
+            className="cards-back-fieldset__radios"
+          >
+            <div>
+              <input
+                id="cardsback1"
+                name="cardsBack"
+                required={true}
+                type="radio"
+                value="1"
+              />
+              <label
+                htmlFor="cardsback1"
+              >
+                <img
+                  alt="first cards' back"
+                  src="cardsback1.jpg"
+                />
+              </label>
+            </div>
+            <div>
+              <input
+                id="cardsback2"
+                name="cardsBack"
+                type="radio"
+                value="2"
+              />
+              <label
+                htmlFor="cardsback2"
+              >
+                <img
+                  alt="sec cards' back"
+                  src="cardsback2.jpg"
+                />
+              </label>
+            </div>
+            <div>
+              <input
+                id="cardsback3"
+                name="cardsBack"
+                type="radio"
+                value="3"
+              />
+              <label
+                htmlFor="cardsback3"
+              >
+                <img
+                  alt="third cards' back"
+                  src="cardsback3.jpg"
+                />
+              </label>
+            </div>
+          </div>
+        </fieldset>
+      </CardsBackFieldset>
+      <button
+        className="form__submit-btn"
+        type="submit"
+      >
+        Let's play
+      </button>
+    </form>
+  </Form>
+</Connect(Form)>
+`;

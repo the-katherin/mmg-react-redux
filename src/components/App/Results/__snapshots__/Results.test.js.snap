@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results match snapshot 1`] = `
+<div
+  className="results-window"
+>
+  <h2>
+     You did it! Welldone! Your score is 
+    5
+  </h2>
+  <h3>
+    TOP-10 results 
+  </h3>
+  <div>
+     Loading... 
+  </div>
+  <Link
+    replace={false}
+    to="/game"
+  >
+    <button>
+      Restart
+    </button>
+  </Link>
+</div>
+`;

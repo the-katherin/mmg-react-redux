@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LevelFieldset match snapshot 1`] = `
+<fieldset
+  className="level-fieldset"
+  name="level"
+>
+  <legend>
+    Choose level
+  </legend>
+  <div
+    className="level-fieldset__radios"
+  >
+    <div>
+      <input
+        id="easy"
+        name="level"
+        required={true}
+        type="radio"
+        value="3"
+      />
+      <label
+        htmlFor="easy"
+      >
+        Easy
+      </label>
+    </div>
+    <div>
+      <input
+        id="medium"
+        name="level"
+        type="radio"
+        value="6"
+      />
+      <label
+        htmlFor="medium"
+      >
+        Medium
+      </label>
+    </div>
+    <div>
+      <input
+        id="professional"
+        name="level"
+        type="radio"
+        value="12"
+      />
+      <label
+        htmlFor="professional"
+      >
+        Professional
+      </label>
+    </div>
+  </div>
+</fieldset>
+`;

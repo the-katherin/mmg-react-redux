@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardsBackFieldset match snapshot 1`] = `
+<fieldset
+  className="cards-back-fieldset"
+  name="cardsBack"
+>
+  <legend>
+    Choose cards' back
+  </legend>
+  <div
+    className="cards-back-fieldset__radios"
+  >
+    <div>
+      <input
+        id="cardsback1"
+        name="cardsBack"
+        required={true}
+        type="radio"
+        value="1"
+      />
+      <label
+        htmlFor="cardsback1"
+      >
+        <img
+          alt="first cards' back"
+          src="cardsback1.jpg"
+        />
+      </label>
+    </div>
+    <div>
+      <input
+        id="cardsback2"
+        name="cardsBack"
+        type="radio"
+        value="2"
+      />
+      <label
+        htmlFor="cardsback2"
+      >
+        <img
+          alt="sec cards' back"
+          src="cardsback2.jpg"
+        />
+      </label>
+    </div>
+    <div>
+      <input
+        id="cardsback3"
+        name="cardsBack"
+        type="radio"
+        value="3"
+      />
+      <label
+        htmlFor="cardsback3"
+      >
+        <img
+          alt="third cards' back"
+          src="cardsback3.jpg"
+        />
+      </label>
+    </div>
+  </div>
+</fieldset>
+`;

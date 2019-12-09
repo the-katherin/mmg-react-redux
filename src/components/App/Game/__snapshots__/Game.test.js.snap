@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game match snapshot 1`] = `
+<div
+  className="game-window"
+>
+  <Connect(Timer) />
+  <Connect(CardsContainer) />
+  <div
+    className="game-window__buttons"
+  >
+    <Link
+      replace={false}
+      to="/results"
+    >
+      <button>
+        Results
+      </button>
+    </Link>
+    <Link
+      replace={false}
+      to="/form"
+    >
+      <button>
+        Change selection
+      </button>
+    </Link>
+  </div>
+</div>
+`;
